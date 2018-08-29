@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game .cell {
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+    border: 1px grey ridge;
+}
+
+
+#game .snake {
+    background-color: orangered;    
+}
+
+#game .apple {
+    background-color: greenyellow;
+}
+
+#game .head {
+    background-color: red;
+}
+
+#game {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;     
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
